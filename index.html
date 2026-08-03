@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Takon Charles Cassey | Portfolio</title>
 
-<link rel="stylesheet" href="style.css">
+<meta name="description" content="Professional Portfolio of Takon Charles Cassey">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
+<div id="particles-js"></div>
+
+<div class="cursor"></div>
+
 <header>
 
-<a href="#" class="logo">
+<div class="logo">
+
 Charles<span>.</span>
-</a>
+
+</div>
 
 <nav>
 
 <a href="#home">Home</a>
+
 <a href="#about">About</a>
+
 <a href="#skills">Skills</a>
+
 <a href="#services">Services</a>
+
 <a href="#projects">Projects</a>
+
 <a href="#contact">Contact</a>
 
 </nav>
+
+<div class="theme-toggle">
+
+<i class="fa-solid fa-moon"></i>
+
+</div>
 
 </header>
 
@@ -40,32 +62,37 @@ Charles<span>.</span>
 
 <section class="hero" id="home">
 
-<div class="hero-content">
+<div class="hero-text">
 
 <h3>Hello, I'm</h3>
 
 <h1>Takon Charles Cassey</h1>
 
 <h2>
+
 <span id="typing"></span>
+
 </h2>
 
 <p>
 
-Statistics Student at the University of Lagos passionate about
-building beautiful websites, mobile applications and solving
-real-world problems with technology and data.
+I build premium websites, web applications,
+mobile apps and modern digital experiences.
 
 </p>
 
 <div class="buttons">
 
 <a href="#contact" class="btn">
+
 Hire Me
+
 </a>
 
-<a href="#" class="btn-outline">
+<a href="resume.pdf" class="btn2">
+
 Download CV
+
 </a>
 
 </div>
@@ -73,19 +100,27 @@ Download CV
 <div class="socials">
 
 <a href="https://github.com/Charlie9mare">
+
 <i class="fab fa-github"></i>
+
 </a>
 
 <a href="#">
+
 <i class="fab fa-linkedin"></i>
+
 </a>
 
 <a href="#">
+
 <i class="fab fa-x-twitter"></i>
+
 </a>
 
 <a href="mailto:charlescasseytakon@gmail.com">
-<i class="fas fa-envelope"></i>
+
+<i class="fa-solid fa-envelope"></i>
+
 </a>
 
 </div>
@@ -94,7 +129,11 @@ Download CV
 
 <div class="hero-image">
 
-<img src="profile.png" alt="Charles">
+<div class="glass">
+
+<img src="profile.png">
+
+</div>
 
 </div>
 
@@ -105,20 +144,20 @@ Download CV
 <section id="about">
 
 <h2 class="title">
+
 About Me
+
 </h2>
 
-<div class="about-box">
+<div class="glass-card">
 
 <p>
 
-I am a Statistics student, Web Developer and App Developer.
+I'm a Statistics student at the University of Lagos,
+Web Developer, Mobile App Developer and Data Analyst.
 
-I enjoy creating responsive websites, modern web applications,
-mobile apps and solving business problems through technology.
-
-I am constantly learning new technologies and building projects
-that improve people's lives.
+I love creating premium user experiences with modern
+technologies while solving real-world problems.
 
 </p>
 
@@ -131,39 +170,83 @@ that improve people's lives.
 <section id="skills">
 
 <h2 class="title">
+
 Skills
+
 </h2>
 
-<div class="grid">
+<div class="skills-grid">
 
-<div class="card">
-<i class="fab fa-html5"></i>
-<h3>HTML5</h3>
+<div class="skill">
+
+<div class="circle html">
+
+90%
+
 </div>
 
-<div class="card">
-<i class="fab fa-css3-alt"></i>
-<h3>CSS3</h3>
+<h3>HTML</h3>
+
 </div>
 
-<div class="card">
-<i class="fab fa-js"></i>
+<div class="skill">
+
+<div class="circle css">
+
+90%
+
+</div>
+
+<h3>CSS</h3>
+
+</div>
+
+<div class="skill">
+
+<div class="circle js">
+
+80%
+
+</div>
+
 <h3>JavaScript</h3>
+
 </div>
 
-<div class="card">
-<i class="fab fa-react"></i>
-<h3>React</h3>
+<div class="skill">
+
+<div class="circle flutter">
+
+75%
+
 </div>
 
-<div class="card">
-<i class="fas fa-mobile-screen-button"></i>
 <h3>Flutter</h3>
+
 </div>
 
-<div class="card">
-<i class="fas fa-chart-line"></i>
-<h3>Data Analytics</h3>
+<div class="skill">
+
+<div class="circle react">
+
+70%
+
+</div>
+
+<h3>React</h3>
+
+</div>
+
+<div class="skill">
+
+<div class="circle python">
+
+80%
+
+</div>
+
+<h3>Python</h3>
+
 </div>
 
 </div>
@@ -175,30 +258,36 @@ Skills
 <section id="services">
 
 <h2 class="title">
+
 Services
+
 </h2>
 
-<div class="grid">
+<div class="cards">
 
 <div class="card">
+
+<i class="fa-solid fa-code"></i>
 
 <h3>Web Development</h3>
 
 <p>
 
-Modern responsive websites for businesses and brands.
+Responsive premium websites.
 
 </p>
 
 </div>
 
 <div class="card">
+
+<i class="fa-solid fa-mobile-screen"></i>
 
 <h3>App Development</h3>
 
 <p>
 
-Android and cross-platform mobile application development.
+Android & Flutter apps.
 
 </p>
 
@@ -206,11 +295,13 @@ Android and cross-platform mobile application development.
 
 <div class="card">
 
-<h3>UI/UX Design</h3>
+<i class="fa-solid fa-chart-line"></i>
+
+<h3>Data Analytics</h3>
 
 <p>
 
-Beautiful interfaces focused on user experience.
+Statistics & Insights.
 
 </p>
 
@@ -225,44 +316,64 @@ Beautiful interfaces focused on user experience.
 <section id="projects">
 
 <h2 class="title">
+
 Projects
+
 </h2>
 
-<div class="grid">
+<div class="projects">
 
-<div class="card">
+<div class="project">
+
+<img src="assets/project1.jpg">
+
+<div class="overlay">
 
 <h3>Business Website</h3>
 
-<p>
+<a href="#">
 
-Modern responsive website for businesses.
+Live Preview
 
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>Portfolio Website</h3>
-
-<p>
-
-Personal portfolio with animations.
-
-</p>
+</a>
 
 </div>
 
-<div class="card">
+</div>
+
+<div class="project">
+
+<img src="assets/project2.jpg">
+
+<div class="overlay">
+
+<h3>Portfolio</h3>
+
+<a href="#">
+
+Live Preview
+
+</a>
+
+</div>
+
+</div>
+
+<div class="project">
+
+<img src="assets/project3.jpg">
+
+<div class="overlay">
 
 <h3>Mobile App</h3>
 
-<p>
+<a href="#">
 
-Flutter mobile application.
+Live Preview
 
-</p>
+</a>
+
+</div>
 
 </div>
 
@@ -275,23 +386,33 @@ Flutter mobile application.
 <section id="contact">
 
 <h2 class="title">
-Let's Work Together
+
+Contact Me
+
 </h2>
 
-<form>
+<form id="contact-form">
 
 <input
 type="text"
-placeholder="Your Name">
+name="name"
+placeholder="Your Name"
+required>
 
 <input
 type="email"
-placeholder="Your Email">
+name="email"
+placeholder="Your Email"
+required>
 
 <textarea
-placeholder="Your Message"></textarea>
+name="message"
+placeholder="Message"
+required>
 
-<button class="btn">
+</textarea>
+
+<button>
 
 Send Message
 
@@ -303,16 +424,16 @@ Send Message
 
 <footer>
 
-<p>
-
-© 2026 Takon Charles Cassey.
-All Rights Reserved.
-
-</p>
+© 2026 Takon Charles Cassey
 
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
